@@ -1,0 +1,36 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 80px;
+  background-color: rgb(255, 255, 255);
+  width: 110px;
+  z-index: 200;
+  }
+
+  .side-items {
+    height: 111px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.15s;
+   
+  }
+
+  .side-items:hover {
+    background-color: rgb(242, 241, 241);
+    cursor: pointer;
+  }
+
+  .side-items img {
+    width: 40px;
+    margin-bottom: 10px;
+  }
+
+  .side-items div {
+    font-size: 14px;
+    font-weight: medium;
+  }
+
